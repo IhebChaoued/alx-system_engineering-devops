@@ -1,2 +1,1 @@
-# alx-system_engineering-devops
-Commands
+Getting to know what every command does
