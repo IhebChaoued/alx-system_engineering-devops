@@ -12,3 +12,7 @@ cd -: return to the previous dir
 ls -al . .. /dir: List all files (+in parent's dir)+ chosen dir
 file 'file name': file type
 ln -s: Symbolic link
+cp *.html ../: Copy HTML Files to the parent directory
+mv [[:upper:]]*: Move all files that starts with Uppercase letter
+rm *~: remove files that ends with ~
+mkdir -p dir/dir/dir: Create multiple sub-dir
