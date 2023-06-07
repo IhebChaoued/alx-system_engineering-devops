@@ -9,3 +9,6 @@ mv: Move/Rename a file
 rm: Delete a file
 rm -r: Delete a directory with all it's content
 cd -: return to the previous dir
+ls -al . .. /dir: List all files (+in parent's dir)+ chosen dir
+file 'file name': file type
+ln -s: Symbolic link
