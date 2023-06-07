@@ -16,3 +16,9 @@ cp *.html ../: Copy HTML Files to the parent directory
 mv [[:upper:]]*: Move all files that starts with Uppercase letter
 rm *~: remove files that ends with ~
 mkdir -p dir/dir/dir: Create multiple sub-dir
+ls -pvma: Lists all the files and directories of the current directory, separated by commas
+
+0 string SCHOOL School data
+!:mime School
+file -C -m file name
+=> Magic file
