@@ -8,4 +8,4 @@ mkdir /dir path/'dir name': Create directory inside a different directory
 mv: Move/Rename a file
 rm: Delete a file
 rm -r: Delete a directory with all it's content
-cd ..: return to the previous dir
+cd -: return to the previous dir
