@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Display different messages based on the iteration
+# Display different messages based on the iteration
 
 counter=1
 
