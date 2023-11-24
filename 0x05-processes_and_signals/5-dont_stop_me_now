@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Stops the process created by the script in Task 4 using kill
+
+pid=$(pgrep -f "4-to_infinity_and_beyond")
+
+if [ -n "$pid" ]; then
+    echo "Stopping the process with PID $pid"
+    kill "$pid"
+else
+    echo "No matching process found"
+fi
