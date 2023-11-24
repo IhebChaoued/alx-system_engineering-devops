@@ -8,7 +8,8 @@ terminator() {
 
 echo "$$" > /var/run/myscript.pid
 
-while true; do
+while true
+do
 	echo "To infinity and beyond"
 	sleep 2
 	trap 'echo "Y U no love me?!"' SIGINT
