@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 # repetition token
 
-put ARGV[0].scan(/hbtn/).join
+put ARGV[0].scan(/hbt*n/).join
