@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-# htbn.
+# repetition token
 
 put ARGV[0].scan(/hbtn/).join
