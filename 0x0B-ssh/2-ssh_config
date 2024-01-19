@@ -1,5 +1,0 @@
-# ~/.ssh/config
-
-Host *
-    IdentityFile ~/.ssh/school
-    PasswordAuthentication no
