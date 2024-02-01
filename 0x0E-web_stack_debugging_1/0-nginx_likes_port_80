@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Check if Nginx is listening on port 80
 
-if ! netstat -tln | grep ":80\s"; then
-    sed -i 's/^\(\s*listen\s*\)\([0-9]\+\)\(.*\)/\1 80\3/' /etc/nginx/sites-available/default && service nginx restart
-fi
-
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
