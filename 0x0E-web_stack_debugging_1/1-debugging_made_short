@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Fix Nginx not listening on port 80
 
-kill -s QUIT $(pidof nginx)
+kill "$(pgrep 'nginx')"
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx restart
