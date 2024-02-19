@@ -25,9 +25,8 @@ if __name__ == "__main__":
     )
     print(task_progress)
 
-    for task in todo_data[:11]:
-        if task.get('completed'):
-            print(f"\t {task.get('title')}")
+    for task in todo_data:
+        print(f"\t {task.get('title')}")
 
     print("\nCorrect number of tasks")
     print("\nCorrect formatting of first line")
