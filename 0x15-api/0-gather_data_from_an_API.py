@@ -10,10 +10,12 @@ def get_user_data(user_id):
     user_resp = requests.get(user_link)
     return user_resp.json()
 
+
 def get_todo_data(user_id):
     todo_link = f"https://jsonplaceholder.typicode.com/users/{user_id}/todos"
     todo_resp = requests.get(todo_link)
     return todo_resp.json()
+
 
 def main():
     user_id = argv[1]
