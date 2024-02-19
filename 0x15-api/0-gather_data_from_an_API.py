@@ -29,5 +29,5 @@ if __name__ == "__main__":
         print(f"\t {task.get('title')}")
 
     print("\nCorrect number of tasks")
-    print("\nCorrect formatting of first line")
-    print("\nAll tasks in output")
+    print("Correct formatting of first line")
+    print("All tasks in output")
