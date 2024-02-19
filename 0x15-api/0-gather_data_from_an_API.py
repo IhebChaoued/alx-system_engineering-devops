@@ -4,6 +4,7 @@
 import requests
 from sys import argv
 
+
 def get_user_data(user_id):
     user_link = f"https://jsonplaceholder.typicode.com/users/{user_id}"
     user_resp = requests.get(user_link)
@@ -33,6 +34,7 @@ def main():
     print(f"Employee {user_data['name']} is done with tasks({done}/{tasks}):")
     for task_title in completed:
         print(f"\t {task_title}")
+
 
 if __name__ == "__main__":
     main()
