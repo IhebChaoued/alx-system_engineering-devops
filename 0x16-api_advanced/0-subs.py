@@ -1,22 +1,15 @@
 #!/usr/bin/python3
 """ Subs """
-
 import requests
 
 
 def number_of_subscribers(subreddit):
     """ Reddit API """
-    url = f"https://www.reddit.com/r/{subreddit}/about.json"
+    link = f"https://www.reddit.com/r/{subreddit}/about.json"
+    headers = {'User-Agent': 'ALX aAPI task 0'}
+    resp = requests.get(link, headers=headers, allow_redirects=False)
 
-    headers = {"User-Agent": "custom-user-agent"}
-
-    response = requests.get(url, headers=headers)
-
-    if response.status_code == 200:
-        data = response.json()
-        subscribers = data["data"]["subscribers"]
-        return subscribers
-    elif response.status_code == 404:
-        return 0
+    if resp.status_code == 200:
+        return resp.json()['data']["subscribers"]
     else:
         return 0
