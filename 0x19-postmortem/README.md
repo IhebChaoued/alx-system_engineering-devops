@@ -1,9 +1,9 @@
 # My First Pizza Postmortem
 
 ## Issue Summary
-- **Duration:** March 6, 2024, 6:00 PM - March 6, 2024, 8:00 PM
-- **Impact:** Temporary unavailability of Margherita Pizza, affecting 20% of pizza enthusiasts.
-- **Root Cause:** Oven malfunction due to a misconfigured temperature control system.
+- 🕰️ **Duration:** March 6, 2024, 6:00 PM - March 6, 2024, 8:00 PM
+- 🌍 **Impact:** Temporary unavailability of Margherita Pizza, affecting 20% of pizza enthusiasts.
+- 🔥 **Root Cause:** Oven malfunction due to a misconfigured temperature control system.
 
 ## Timeline
 - **6:00 AM:** Issue detected as the first batch of Margherita Pizzas took longer than usual to bake.
@@ -15,16 +15,16 @@
 - **8:30 AM:** Temperature control system reconfigured, and normal pizza baking operations resumed.
 
 ## Root Cause and Resolution
-- **Root Cause:** Misconfigured temperature control settings led to abnormal oven temperature fluctuations, causing delayed pizza baking.
-- **Resolution:** Temperature control settings were corrected, and automated checks were implemented to monitor and adjust oven temperature during baking.
+- 🌡️ **Root Cause:** Misconfigured temperature control settings led to abnormal oven temperature fluctuations, causing delayed pizza baking.
+- 🔧 **Resolution:** Temperature control settings were corrected, and automated checks were implemented to monitor and adjust oven temperature during baking.
 
 ## Corrective and Preventative Measures
-- **Improvements/Fixes:**
+- 🚀 **Improvements/Fixes:**
 - Implement regular automated checks for oven temperature control settings.
 - Enhance monitoring alerts specifically for abnormal oven temperature fluctuations.
 - Review and update documentation regarding pizza dough and oven temperature requirements to avoid similar misconfigurations.
 
-- **Tasks:**
+- 📋 **Tasks:**
   - Schedule regular audits of oven temperature control settings and update documentation accordingly.
   - Conduct a review of the incident with the culinary team to identify areas for improvement in the pizza baking process.
   - Develop and implement a comprehensive training program on proper oven temperature control for all pizza chefs involved.
